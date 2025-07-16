@@ -4,13 +4,13 @@ This project implements a digital reaction timer game using sequential circuit d
 
 ---
 
-## ⚙️ Overview
+##  Overview
 
 Designed as part of a CS232 digital logic course, this project explores **Moore state machines**, **timing control**, and **real-time interaction** using switches and LEDs on a physical FPGA board. The timer displays the time it takes to respond to a visual cue.
 
 ---
 
-## 🧩 Core Components
+## Core Components
 
 - **Moore State Machine (`timer.vhd`)**
   - Three-state sequential circuit handling start, wait, and capture logic
@@ -27,7 +27,7 @@ Designed as part of a CS232 digital logic course, this project explores **Moore 
 
 ---
 
-## 🧪 Hardware Behavior
+## Hardware Behavior
 
 - Press a button to start the game.
 - Wait for the LED to turn on.
@@ -37,7 +37,7 @@ Designed as part of a CS232 digital logic course, this project explores **Moore 
 
 ---
 
-## 📁 Project Contents
+## Project Contents
 
 | File/Folder               | Description |
 |--------------------------|-------------|
@@ -52,13 +52,13 @@ Designed as part of a CS232 digital logic course, this project explores **Moore 
 
 ---
 
-## 🧠 Reflection
+## Reflection
 
 This project provided hands-on experience with sequential circuit design using VHDL. Building and testing a finite state machine that reacts to real-time input made abstract concepts like timing and state transitions feel concrete and intuitive. While time constraints limited full implementation of a two-player mode, the system demonstrates robust single-player performance.
 
 ---
 
-## 👤 Author
+## Author
 
 **Aayan Shah**  
 Computer Science & Physics Student  
